@@ -21,9 +21,9 @@ print(random.random())
 if random.random() < 0.5:
     print('안녕하세요~~')
 
-    # choice 함수 - 리스트에서 랜덤
-    seasons = ['spring', 'summer', 'fall', 'winter']
-    print(random.choice(seasons))
+# choice 함수 - 리스트에서 랜덤
+seasons = ['spring', 'summer', 'fall', 'winter']
+print(random.choice(seasons))
 
 # shuffle() 함수 - 임의로 섞는 함수
 my_list = [1,2,3,4,5]
