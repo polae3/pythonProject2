@@ -9,7 +9,6 @@
 from openai import OpenAI, api_key
 from pyexpat.errors import messages
 
-
 client = OpenAI(api_key=api_key)
 
 # 대화 기록을 저장할 messages 리스트
